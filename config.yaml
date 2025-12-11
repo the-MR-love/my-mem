@@ -1,0 +1,26 @@
+llm:
+  provider: openai_compat
+  base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+  model: deepseek-v3.2
+  api_key: 
+
+embedding:
+  provider: openai_compat
+  base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+  model: text-embedding-v4
+  api_key: 
+
+datasets:
+  hotpot:
+    path: "./dataset/hotpotQA/sample1125_50.json"
+    limit: 5
+  mquake:
+    path: "./dataset/MQUAKE/sample1125_50.json"
+    limit: 5
+  twiki:
+    path: "./dataset/2wiki/sample1125_50.json"
+    limit: 5
+
+enable_evolution: false
+
+output_dir: "./results"

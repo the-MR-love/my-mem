@@ -1,0 +1,6 @@
+requirements.txt
+__pycache__/
+.idea/
+results/
+memory_snapshots/
+temp_memory_workspace/
